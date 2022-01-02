@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="module" src="scripts/script.js"></script>
+    <title>Name</title>
+</head>
+<body>
+    <header id="header">
+        <h1>FIND ME!</h1>
+        <h2>FIND US LOCATION BY POSTAL CODE NUMBER</h2>
+        <div id="icon-div">
+            <span class="material-icons">travel_explore</span>
+        </div>
+    </header>
+    
+    <main>
+        <section id="main-section">
+            <form id="zip-code-details">
+                <label for="zip-code" class="flex">Zip Code</label>
+                <input type="text" name="zip-code" placeholder="Please enter a valid zip code" id="zip-code" maxlength="5" class="input">
+
+                <label for="city" class="flex">City</label>
+                <input type="text" name="city" id="city" class="input" disabled>
+
+                <label for="state" class="flex">State</label>
+                <input type="text" name="state" id="state" class="input" disabled>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
