@@ -80,13 +80,13 @@ main #main-section {
     border-radius: 5px;
 }
 
-main #main-section #zip-code-details {
+main #main-section #zip-code-data {
     display: flex;
     flex-direction: column;
     font-family: var(--main-font);
 }
 
-main #main-section #zip-code-details label {
+main #main-section #zip-code-data label {
     width: 100%;
     margin: 5px;
 }
@@ -111,12 +111,12 @@ main #main-section #zip-code-details label {
     border: 1px solid #F54911;
 }
 
-main #main-section #zip-code-details #button-div {
+main #main-section #zip-code-data #button-div {
     width: 100%;
     justify-content: center;
 }
 
-main #main-section #zip-code-details #search {
+main #main-section #zip-code-data #find {
     width: 80px;
     padding: 10px;
     margin-top: 10px;
@@ -129,7 +129,7 @@ main #main-section #zip-code-details #search {
     background-color: #F54911;
 }
 
-main #main-section #zip-code-details #search:active {
+main #main-section #zip-code-data #find:active {
     margin-top: 12px;
     border: none;
 }

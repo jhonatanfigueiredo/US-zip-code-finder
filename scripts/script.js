@@ -1,8 +1,8 @@
 import { zipCodeData } from "./util.js";
 
 const zipCode = document.querySelector("#zip-code");
-const searchButton = document.querySelector("#search");
+const findButton = document.querySelector("#find");
 
-searchButton.addEventListener("click", function() {
+findButton.addEventListener("click", function() {
     zipCodeData(zipCode.value);
 });

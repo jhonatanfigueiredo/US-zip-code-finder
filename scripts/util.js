@@ -1,4 +1,4 @@
-function searchResult(zipCodeData) {
+function result(zipCodeData) {
 
     for (let data in zipCodeData) {
         if (document.querySelector(`#${data}`)) {
@@ -13,7 +13,7 @@ let zipCodeData = async function (zipCodeNumber) {
     try {
         let fetchData = await fetch(url);
         let jsonData = await fetchData.json(); 
-        searchResult(jsonData.item);
+        result(jsonData.item);
     } catch (error) {
         alert(error);
     }
